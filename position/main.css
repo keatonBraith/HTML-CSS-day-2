@@ -1,0 +1,53 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 80vw;
+    height: 80vh;
+    background-color: green;
+    margin: 0 auto;
+    /* margin-top: 10vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main > section {
+    width: 80%;
+    height: 80%;
+    background-color: hotpink;
+    margin: 0 auto;
+    /* margin-top: ; */
+    position: relative;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom: 0em;
+}
+
+.right {
+    right: 0em;
+}
+
+.left {
+    left: 0em;
+}

@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.parent {
+    height: 80%;
+    width: 80%;
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.parent > div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 10px;
+}
+
+.firstsquare {
+    flex: 5;
+}
+
+.secondsquare {
+    flex: 3;
+}
+
+.thirdsquare {
+    /* width: 100px; */
+}
+
+.fourthsquare {
+    flex: 1;
+}
